@@ -1,6 +1,6 @@
 # Graphql-Multi-Url
 
-As we know nowadays graphql is widely use for calling API. Graphql gives us logical endpoint to our API so as per wide era of application which possibly has two graphql endpoint so calling two endpoint from one application is some tricky part 😜
+As we know nowadays graphql is widely use for calling API. Graphql gives us logical endpoint to our API so as per wide era of application which possibly has two graphql endpoint so calling two endpoint from one application is some tricky part!
 
 > This multi url demo gives you a demonstration to call multiple url as per requirement 
 
@@ -10,7 +10,7 @@ npm install
 
 npm start
 ```
-nothing facncy here.
+nothing fancy here.
 
 Now in the src folder their is `App.js` file where you can find the fetchQuery method which help us to retrive data from graphql.
 In this method we use graphql client to fire the query inside the client.query you find something like this:
