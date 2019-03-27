@@ -39,3 +39,7 @@ Where `operation.getContext()` is like a switch using this we can switch between
 To see that happen you have to start your browser console where they displays the graphql endpoint because these are the dummy endpoint so connection can not be established.
 
 Now you can change the version from `App.js` file can run application again so as per condition in the `index.js` file the request will be fire to particular end point.
+
+## Demo
+
+![multiple-graphql-url-demo](./multiple-graphql-url-demo.gif)
