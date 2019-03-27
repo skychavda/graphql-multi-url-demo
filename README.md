@@ -36,10 +36,12 @@ Where `operation.getContext()` is like a switch using this we can switch between
  - If version is equal to 1 then the condition is true and first endpoint will fire 
  - If version is not equal to 1 then condition is false and second endpoint is fire.
 
-To see that happen you have to start your browser console where they displays the graphql endpoint because these are the dummy endpoint so connection can not be established.
-
-Now you can change the version from `App.js` file can run application again so as per condition in the `index.js` file the request will be fire to particular end point.
+Now you can change the version in `App.js` file and run application again so as per condition in the `index.js` file the request will be fire to particular endpoint.
 
 ## Demo
 
 ![multiple-graphql-url-demo](./multiple-graphql-url-demo.gif)
+
+In Browser's Console, you can see some errors displays. In this list of errors you can find second number error which tell us that connection is not establish to given endpoint.
+
+By default, you can see `http://localhost:4000/v1/graphql` and when you change context version to 2, it will be changed to `http://localhost:4000/v2/graphql`.
